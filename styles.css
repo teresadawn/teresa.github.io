@@ -1,0 +1,84 @@
+/* Colors inspired by the uploaded logo */
+:root {
+    --primary-blue: #0057b8;
+    --primary-yellow: #ffcc33;
+    --white: #ffffff;
+    --dark-blue: #003c7e;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-yellow);
+    color: var(--dark-blue);
+}
+
+/* Header */
+.header {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: var(--dark-blue);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    color: var(--white);
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: var(--primary-yellow);
+    color: var(--dark-blue);
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: auto;
+    background: var(--white);
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h2 {
+    background-color: var(--primary-blue);
+    color: var(--white);
+    padding: 10px;
+    margin: -20px -20px 10px;
+    text-align: center;
+}
+
+/* Sections */
+.section {
+    padding: 10px 0;
+}
+
+.section p {
+    margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding: 10px;
+    margin-top: 20px;
+}
